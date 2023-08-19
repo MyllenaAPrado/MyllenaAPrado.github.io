@@ -4,6 +4,7 @@ date: 2023-08-21
 permalink: /posts/2023/08/light-fields/
 excerpt_separator: <!--more-->
 ---
+<!---
 
 Light fields is a 4D image that represents the spatial and angular distribution of a ligth in a defined space. 
 These imagens are generated using a plenotic Camera. This type of camera has a mayn lens and a micro lenses to generate the image. 
@@ -39,3 +40,5 @@ Bibliography:
  - [The Standard Plenoptic Camera - Christopher Hahne](http://www.plenoptic.info/index.html)
 
  - [Plenoptic Cameras: The Future of Imaging - Youtube](https://www.youtube.com/watch?v=nyRgcD4VxE8)
+
+ -->
