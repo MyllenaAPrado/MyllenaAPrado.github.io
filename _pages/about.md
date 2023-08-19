@@ -8,23 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-Welcome! I am a data scientist applying machine learning tools and causal
-inference techniques to remote sensing data. I am also an affiliated
-researcher with the [Data-driven Analysis of Peace Project](https://dapp-lab.org)
-and a research collaborator with the 
-[Research on International Policy Implementation Lab](https://bridgingthegapproject.org/ripil).
+Welcome!
 
-I earned my Ph.D in Political Science from the
-[University *of* North Carolina *at* Chapel Hill](https://www.unc.edu) and my
-B.A. in Political Science from [Haverford College](https://www.haverford.edu).
-My academic work has been [published](publications) or is forthcoming in
-*International Studies Quarterly*, *Conflict Management and Peace Science*,
-*Political Science Research and Methods*, and *PS: Political Science & Politics*,
-among other outlets. This [research](research) explores the causes and
-consequences of political violence using a broad variety of methods such as
-latent variable models, geospatial analysis, and big data. While primarily
-focused on civil conflict, it also examines contentious political phenomena
-including terrorism and economic statecraft, and develops new measures of
-institutions in international relations. I have [teaching](teaching) experience
-in both quantitative methodology and international relations, and am a certified
-instructor with [The Carpentries](https://carpentries.org).
+I am a Ph.D. student at [Texas State University](https://www.txst.edu).
+My research focuses on image quality assessment in light fields images.
+I have been exploring the field of computer vision since 2021 when I was researching 360-degree videos.
+At that time, I completed my degree in mechatronics engineering at [University of Brasilia](https://international.unb.br/).
+
+Currently, I explore the Graph convolution neural network applied in 4D Light field images.
+Immersive images are increasingly present in society, one example being the light field image. 
+Therefore, research into image quality assessment in the light field is necessary to provide a good experience for the end user.
+
+I am also a Doctoral instructional assistant in Foundations of Computer Science II class. 
+I am responsible for a specific group of  undergraduate students and some portion of their grades.
+At this class the students study about searching and sorting, pointers and dynamic memory allocation, simple classes and objects, and Abstract Data Types (ADTs) including lists, stacks, queues. 
+
