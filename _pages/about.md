@@ -19,7 +19,4 @@ Currently, I explore the Graph convolution neural network applied in 4D Light fi
 Immersive images are increasingly present in society, one example being the light field image. 
 Therefore, research into image quality assessment in the light field is necessary to provide a good experience for the end user.
 
-I am also a Doctoral instructional assistant in Foundations of Computer Science II class. 
-I am responsible for a specific group of  undergraduate students and some portion of their grades.
-At this class the students study about searching and sorting, pointers and dynamic memory allocation, simple classes and objects, and Abstract Data Types (ADTs) including lists, stacks, queues. 
 

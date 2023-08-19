@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Myllena Prado"
   avatar           : "profile.png"
-  bio              : "Ph.D Student"
+  bio              : "Ph.D Student at Texas State University"
   location         :
   employer         :
   pubmed           :
@@ -108,7 +108,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "https://www.linkedin.com/in/myllenaprado/"
   mastodon         : 
   pinterest        :
   soundcloud       :
