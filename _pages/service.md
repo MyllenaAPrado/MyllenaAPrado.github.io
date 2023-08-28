@@ -1,6 +1,6 @@
 ---
-permalink: /work/
-title: "Work Experience"
+permalink: /service/
+title: "Service"
 ---
 
 
