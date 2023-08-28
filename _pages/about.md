@@ -8,15 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome!
 
-I am a Ph.D. student at [Texas State University](https://www.txst.edu).
-My research focuses on image quality assessment in light fields images.
-I have been exploring the field of computer vision since 2021 when I was researching 360-degree videos.
-At that time, I completed my degree in mechatronics engineering at [University of Brasilia](https://international.unb.br/).
-
-Currently, I explore the Graph convolution neural network applied in 4D Light field images.
-Immersive images are increasingly present in society, one example being the light field image. 
-Therefore, research into image quality assessment in the light field is necessary to provide a good experience for the end user.
+I am a PhD student at [Texas State University](https://www.txst.edu). My research focuses on evaluating image quality in light field images. I have been exploring the field of computer vision since 2021 when I was researching 360-degree videos. At that time, I completed my degree in mechatronics engineering at the [University of Brasilia](https://international.unb.br/). Currently, I am exploring the Graph convolution neural network applied to light field images.
 
 
