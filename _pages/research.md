@@ -11,6 +11,8 @@ My main academic research is about quality visual assesment.
 
 <nbsp>
 
+# Publications
+
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
@@ -22,7 +24,11 @@ My main academic research is about quality visual assesment.
 {% endfor %}
 
 
-----------------------------------
+
+
+
+
+
 {% include base_path %}
 
 {% assign ordered_pages = site.research | sort:"order_number" %}
