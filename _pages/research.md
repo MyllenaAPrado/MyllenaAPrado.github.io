@@ -7,7 +7,7 @@ author_profile: true
 
 My main academic research is about quality visual assesment.
 
-# Publications
+## Publications
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
