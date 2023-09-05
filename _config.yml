@@ -211,10 +211,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _publications
+  # research
   - scope:
       path: ""
-      type: publications
+      type: research
     values:
       layout: single
       author_profile: true
