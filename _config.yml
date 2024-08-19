@@ -91,9 +91,9 @@ author:
   employer         :
   pubmed           :
   orcid            : 
-  googlescholar    : 
+  googlescholar    : "https://scholar.google.com/citations?user=3R0sGIcAAAAJ&hl=en&inst=6114818187226770759"
   email            : "myllena.pradoa@gmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :  
   uri              :
   bitbucket        :
   codepen          :
@@ -106,13 +106,13 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
-  linkedin         : "https://www.linkedin.com/in/myllenaprado/"
+  linkedin         : "myllenaprado/"
   mastodon         : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : #"https://stackoverflow.com/users/10912314/jayrobwilliams"
+  stackoverflow    : 
   steam            :
   tumblr           :
   twitter          : 
@@ -191,8 +191,10 @@ collections:
     permalink: /:collection/:path/
   talks:
     output: true
-    permalink: /:collection/:path/
-
+    permalink: /:collection/:path/\
+  categories:
+    output: true
+    permalink: /:categories/:path/\
 
 # Defaults
 defaults:
@@ -223,10 +225,8 @@ defaults:
       author_profile: true
       share: true
       comments: true
-      
-collections:
-  categories:
-    output: true
+
+
 
 # Sass/SCSS
 sass:
