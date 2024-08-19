@@ -1,0 +1,70 @@
+---
+layout: archive
+permalink: /categories/
+author_profile: true
+header:
+  og_image: "posts/spatial-sql/gadm_wkt_filter_buffer-1.png"
+---
+
+
+<!-- Page Header -->
+<div class="category-header" style="text-align: center; padding: 50px 20px; background-color: #f7f7f7;">
+  <h1 id="category-name" style="font-size: 36px; color: #333;">Loading category...</h1>
+  <p style="font-size: 18px; color: #666;">Explore posts categorized under <span id="category-highlight"></span></p>
+</div>
+
+<!-- Posts Container -->
+<div id="category-posts" style="display: flex; flex-wrap: wrap; justify-content: center; padding: 20px;">
+{% for post in site.posts %}
+  <div class="post-item" data-category="{{ post.categories | join: ' ' }}" style="background-color: white; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); margin: 15px; padding: 20px; max-width: 300px; width: calc(33.333% - 40px);">
+    <h2 style="font-size: 24px; color: #007acc;"><a href="{{ post.url }}" style="text-decoration: none; color: inherit;">{{ post.title }}</a></h2>
+    <p style="font-size: 14px; color: #777;">{{ post.excerpt }}</p>
+    <a href="{{ post.url }}" style="text-decoration: none; color: #007acc; font-weight: bold;">Read more →</a>
+  </div>
+{% endfor %}
+</div>
+
+<!-- JavaScript for Handling the Category and Filtering Posts -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    var fragment = window.location.hash.substring(1);
+
+    if (fragment) {
+        // Update category name and highlight text
+        document.getElementById('category-name').textContent = "Category: " + fragment;
+        document.getElementById('category-highlight').textContent = fragment;
+
+        // Filter posts based on the category
+        var posts = document.querySelectorAll('.post-item');
+
+        posts.forEach(function(post) {
+            if (post.dataset.category.indexOf(fragment) === -1) {
+                post.style.display = 'none';
+            } else {
+                post.style.display = 'block';
+            }
+        });
+    } else {
+        document.getElementById('category-name').textContent = "No category specified";
+        document.getElementById('category-highlight').textContent = "No category";
+    }
+});
+</script>
+
+<!-- Additional CSS for a Better User Experience -->
+<style>
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.post-item:hover {
+  transform: translateY(-5px);
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .post-item {
+    width: calc(100% - 40px);
+  }
+}
+</style>
