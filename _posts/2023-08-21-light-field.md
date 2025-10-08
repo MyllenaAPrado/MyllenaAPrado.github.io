@@ -31,6 +31,7 @@ Christopher Hahne explained that: "For instance, the central position u1, highli
 
 <img src="assets/img/MultipleSAI.png"  width="400" height="200">
 
+
 [The Standard Plenoptic Camera - Christopher Hahne](http://www.plenoptic.info/index.html)
 
 
